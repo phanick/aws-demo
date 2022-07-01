@@ -11,7 +11,7 @@ module "eks" {
     root_volume_type = "gp2"
   }
 
-  worker_groups = [https://github.com/phanick/aws-demo
+  worker_groups = [
     {
       name                          = "worker-group-1"
       instance_type                 = "t2.small"
