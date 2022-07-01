@@ -27,6 +27,7 @@ module "eks" {
       asg_desired_capacity          = 0
     },
   ]
+  manage_aws_auth = false
 }
 
 data "aws_eks_cluster" "cluster" {
